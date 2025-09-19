@@ -4,9 +4,21 @@ public class Particle {
     double den;
 
 
+
+
+
+
+
+
     public Particle() {
 
+
+
+
     }
+
+
+
 
     public Particle(double xPos, double yPos, double zPos, double xDir, double yDir, double zDir, double density) {
         pos.vec[0] = xPos;
@@ -14,12 +26,26 @@ public class Particle {
         pos.vec[2] = zPos;
 
 
+
+
+
+
+
+
         dir.vec[0] = xDir;
         dir.vec[1] = yDir;
         dir.vec[2] = zDir;
 
+
+
+
         den = density;
     }
+
+
+
+
+
 
 
     public void next(double deltaTime) {
@@ -28,13 +54,26 @@ public class Particle {
         pos.vec[1] += dir.vec[2] * deltaTime;
     }
 
+
+
+
     public static double smoothingKernel(double x1, double r, boolean smooth, boolean derivative) {
+
         double x;
+
         if (x1 < 0) {
             x = -x1;
         } else {
             x = x1;
         }
+
+
+        if (x < 0.005) {
+            x = 0.005;
+        }
+
+
+
 
         double temp;
         if (smooth) {
@@ -42,7 +81,7 @@ public class Particle {
                 temp = (r*r) - (x*x);
                 temp = temp * temp;
                 temp = temp * x * 24;
-                temp = temp / (Math.PI*r*r*r*r*r*r*r*r);
+                temp = temp / (Math.PI*(r*r*r*r*r*r*r*r));
                 return temp;
             } else {
                 temp = (r*r) - (x*x);

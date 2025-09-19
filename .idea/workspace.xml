@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d91394e-f26c-4f42-908e-590c87876ccd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fluid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fluid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Particle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vec.java" afterDir="false" />
+    <list default="true" id="1d91394e-f26c-4f42-908e-590c87876ccd" name="Changes" comment="first check in. working on optimization of density mapping and vector calcs for the particles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fluid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Particle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1756262120411</updated>
     </task>
+    <task id="LOCAL-00001" summary="first check in. working on optimization of density mapping and vector calcs for the particles">
+      <option name="closed" value="true" />
+      <created>1756950788275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756950788275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Fluid.java</url>
-          <line>270</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first check in. working on optimization of density mapping and vector calcs for the particles" />
+    <option name="LAST_COMMIT_MESSAGE" value="first check in. working on optimization of density mapping and vector calcs for the particles" />
   </component>
 </project>
